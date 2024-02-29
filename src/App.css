@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/*.........reset..........*/
+*, 
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'kanit', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: antiquewhite;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  object-fit: contain;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.App {
+  background-image: url('https://freefrontend.com/assets/img/css-weather-icons/some-weather-icon-svgs.gif');
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
