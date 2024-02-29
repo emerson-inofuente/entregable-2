@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import axios from 'axios';
-import WeatherCard from './components/weatherCard';
+import WeatherCard from './components/WeatherCard';
 const APIkey = "9ef879825b7c0595c3c8e74dc6075b64";
 
 function App() {
